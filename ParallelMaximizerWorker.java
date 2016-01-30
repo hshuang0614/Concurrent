@@ -29,8 +29,7 @@ public class ParallelMaximizerWorker extends Thread {
 				number = list.remove();
 			}
 			
-			// update partialMax according to new value
-			// TODO: IMPLEMENT CODE HERE
+			partialMax = Math.max(number, partialMax);
 		}
 	}
 	
